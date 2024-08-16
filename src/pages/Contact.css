@@ -1,0 +1,44 @@
+/* ContactForm.css */
+.hero-section {
+    position: relative;
+    background-image: url('../assets/banner1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .hero-image, .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  .justify-align {
+    text-align: justify;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
